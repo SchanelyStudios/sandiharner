@@ -1,0 +1,26 @@
+{
+  "name": "sandiharner",
+  "version": "1.0.0",
+  "description": "Personal website of Sandi Harner.",
+  "main": "src/index.html",
+  "scripts": {
+    "sync": "browser-sync start -s \"src\" -f \"src/**/*.*\"",
+    "sass": "node-sass -w --include-path='src/sass' --source-map=true src/style.scss src/style.css",
+    "start": "npm-run-all -p sync sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchanelyStudios/sandiharner.git"
+  },
+  "author": "Miscellaneous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchanelyStudios/sandiharner/issues"
+  },
+  "homepage": "https://github.com/SchanelyStudios/sandiharner#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3"
+  }
+}
