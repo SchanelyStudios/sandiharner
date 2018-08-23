@@ -1,0 +1,19 @@
+header img {
+  float: left;
+  width: 100px;
+}
+
+nav {
+  float: left;
+  width: 1200px;
+
+  li {
+    float: left;
+    margin-right: 110px;
+    padding: 0;
+
+    a {
+      display: block;
+    }
+  }
+}

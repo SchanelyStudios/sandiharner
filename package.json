@@ -5,7 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "sync": "browser-sync start -s \"src\" -f \"src/**/*.*\"",
-    "sass": "node-sass -w --include-path='src/sass' --source-map=true src/style.scss src/style.css",
+    "sass": "node-sass -w --include-path='src/sass' --source-map=true src/styles.scss src/styles.css",
     "start": "npm-run-all -p sync sass"
   },
   "repository": {
