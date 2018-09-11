@@ -195,16 +195,6 @@ nav {
 .contact-intro-image img {
   float: left; }
 
-.btm-img {
-  float: left;
-  width: 1024px;
-  height: 300px; }
-  .btm-img li {
-    float: left;
-    width: 485px;
-    height: 206px;
-    padding: 10px; }
-
 .consult-intro {
   float: left;
   width: 1024;
@@ -221,18 +211,17 @@ nav {
     border: none;
     color: darkgray; }
 
-.top-img {
+.tiles {
   float: left;
   width: 1024px;
   height: 300px; }
-  .top-img p {
-    position: absolute;
-    left: 200px; }
-  .top-img li {
+  .tiles li {
     float: left;
     width: 300px;
     height: 206px;
     padding: 10px; }
+  .tiles .tile--large {
+    width: 485px; }
 
 .writing-consult {
   float: left;

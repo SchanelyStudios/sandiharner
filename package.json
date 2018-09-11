@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/SchanelyStudios/sandiharner#readme",
   "devDependencies": {
-    "browser-sync": "^2.24.6",
     "node-sass": "^4.9.3",
     "npm-run-all": "^4.1.3"
   }
