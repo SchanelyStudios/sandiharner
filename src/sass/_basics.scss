@@ -1,98 +1,83 @@
 a {
-  color: black;
+  color: $clr-body-dark;
   text-decoration: none;
-  font-size: 1.4em;
   &:hover {
     text-decoration: underline;
   }
 }
 
 blockquote {
-  float: left;
-  width: 900px;
-  font-size: 1.6em;
-  color: darkgrey;
-  padding: 20px;
-  color: white;
+  background-color: $clr-body-light;
+  margin: 0;
+  padding: 40px 40px;
+  p {
+    font-size: 1.6rem;
+  }
 }
 
 body {
+  color: $clr-body-dark;
+  font-weight: 300;
   width: 1024px;
   margin: 0 auto;
+  font-size: 1.4rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 62.5%;
   background-color: white;
 }
 
-.button {
-  color: white;
+figure {
+  float: right;
+  margin: 0 0px 20px 40px;
+}
+
+footer {
+  text-align: center;
+  margin: 40px;
 }
 
 h1 {
-  font-size: 2.4em;
-  padding: 20px;
-  a:hover {
-    text-decoration: none;
+  font-size: 2.4rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  a {
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
 h2 {
-  font-size: 2.4em;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.4rem;
+  font-family: 'Lora', serif;
 }
 
 h3 {
-  font-size: 1.8em;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.8rem;
+  font-family: 'Lora', serif;
 }
 
-.left {
-  float: left;
-  width: 500px;
-
-  a {
-    float: left;
-    width: 120px;
-    color: white;
-    font-weight: 600;
-  }
-
-  button {
-    padding: 10px;
-    border: none;
-    color: darkgray;
-  }
-
-  img {
-    width: 310px;
-    height: 360px;
-    margin-top: 20px;
-    margin-left: 50px;
-  }
+html {
+  font-size: 10px;
 }
 
 li {
   list-style-type: none;
 }
 
-.links {
-  float: left;
-  width: 300px;
-  padding: 10px;
-  margin-left: 53px;
-}
-
-
-.main-body {
-  width: 1200px;
+main {
+  padding: 20px;
 }
 
 p {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   line-height: 200%;
-}
-
-.right {
-  float: left;
-  width: 500px;
+  margin: 0 0 10px;
 }
 
 ul {

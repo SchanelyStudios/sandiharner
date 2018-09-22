@@ -1,19 +1,36 @@
-header img {
-  float: left;
-  width: 100px;
+header {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  img {
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
 }
 
 nav {
-  float: left;
-  width: 1200px;
-
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    border-bottom: 4px solid $clr-primary-dark;
+  }
   li {
-    float: left;
-    margin-right: 110px;
     padding: 0;
-
     a {
+      color: $clr-primary-dark;
       display: block;
+      padding: 8px 20px;
+      &:hover {
+        text-decoration: none;
+        background-color: $clr-primary-light;
+      }
+    }
+    &.active a {
+      background-color: $clr-primary-dark;
+      color: $clr-primary-light;
     }
   }
 }
